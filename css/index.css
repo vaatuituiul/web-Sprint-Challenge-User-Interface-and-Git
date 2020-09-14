@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    clear: both;
 }
 
 .top-content {
@@ -143,4 +144,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: inline;
+}
+
+#logo {
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+.button {
+    text-decoration: none; 
 }
